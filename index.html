@@ -187,6 +187,10 @@
                         <label for="">กลับ</label>
                         <input type="text" @keypress="isNumber($event)" id="moneySwap" v-model="moneySwap" v-on:keyup.enter="setValue()" placeholder="กลับ">
                     </div>
+
+                    <div style="margin-top: 20px">
+                        <button @click="setValue()">บันทึกข้อมูล</button>
+                    </div>
             </div>
 
             <div style="margin-top: 50px; border-top: 1px solid gray;">
